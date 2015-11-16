@@ -3,5 +3,9 @@ package main
 import "net/http"
 
 func init() {
-  log.Fatal(http.ListenAndServe(":8080", http.FileServer(http.Dir("."))))
+  http.HandleFunc("/", static)
+}
+
+func static(w http.ResponseWriter, r *http.Request) {
+  http.ServeFile(w, r, "public/"+r.URL.Path)
 }
