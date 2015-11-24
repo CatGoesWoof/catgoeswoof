@@ -1,10 +1,10 @@
 .nav a {
-	font-size: 25px;
+	font-size: 4em;
 	color: #3581A6;
 	font-family: 'Poiret One', cursive;
 	text-decoration: none;
-	margin-right: 3cm;
-	border: 3px double #F7F4F0;
+	margin-right: 1cm;
+	text-align: center;
 	}
 
 .nav a:hover {
@@ -13,7 +13,8 @@
 	}
 .nav ul {
 	margin: 25px 0px 0px 0px;
-	float: right;
+	text-align: center;
+	padding-top: 2em;
 	}
 .nav p {
 	background-color: #7F254E;
@@ -25,16 +26,17 @@ h2 {
 	background-color: #BC8082;
 	font-family: 'Pacifico', cursive;
 	color: white;
-	font-size: 38px;
-	margin-left: 2cm;
-	margin-right: 2cm;
+	font-size: 5.2em;
+	margin-left: 3mm;
+	margin-right: 3mm;
+	text-align: center;
 	}
 p  {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #9f9f9f;
-	font-size: 24px;
-	margin-left: 2cm;
-	margin-right: 2cm;
+	font-size: 5em;
+	margin-left: 1cm;
+	margin-right: 1cm;
 	text-align: justify;
 	}
 body {
@@ -42,9 +44,14 @@ body {
 	}
 .logo {
 	border: 4px double #9f9f9f;
-	margin-right: 2cm;
-	margin-left: 2cm;
+	margin-right: 3mm;
+	margin-left: 3mm;
+	padding-right: 5px;
 	}
+.logo img{
+	width: 925px;
+	height: auto;
+}
 .jumbotron a {
 	color: #BC8082;
 	font-weight: bold;
@@ -54,35 +61,36 @@ body {
 	color: #3581A6;
 	}
 .jumbotron img {
-	border: 4px double #3581A6;
+	border: 10px double #3581A6;
 	}
 h3 {
 	Color: #3581A6;
 	font-family: 'Poiret One', cursive;
-	font-size: 35px;
+	font-size: 4.3em;
+	margin-left: 3mm;
+	margin-right: 3mm;
 	}
 hr {
 	color: #9f9f9f;
-	margin-top: 2cm;
-	margin-bottom: 2cm;
-	margin-left: 1cm;
-	margin-right: 1cm;
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	margin-left: 2mm;
+	margint-right: 2mm;
 	}
-p2 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #9f9f9f;
-	font-size: 24px;
-	margin-left: 2cm;
-	margin-right: 2cm;
-	text-align: justify;
-	font-weight: bold;
+.jumbotron img {
+	max-width: 100%;
+	height:auto;
 }
-html {
-  cursor: url('images/nat260.gif'), auto;
+h2 {
+	font-weight:normal;
 }
-html a:hover {
- cursor: url('images/nat260-hover copy.gif'), auto;
+p {
+	font-weight: normal;
 }
-html a:visited {
-	
+
+h3 {
+	font-weight: normal;
+}
+a {
+	font-weight: normal;
 }
