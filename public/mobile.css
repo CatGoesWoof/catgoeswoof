@@ -1,4 +1,4 @@
-.nav a {
+.nav-links a {
 	font-size: 4em;
 	color: #3581A6;
 	font-family: 'Poiret One', cursive;
@@ -7,19 +7,19 @@
 	text-align: center;
 	}
 
-.nav a:hover {
+.nav-links a:hover {
 	color: #BC8082;
 	border: 3px double #9f9f9f;
 	}
-.nav ul {
+.nav-links ul {
 	margin: 25px 0px 0px 0px;
 	text-align: center;
 	padding-top: 2em;
 	}
-.nav p {
+.nav-links p {
 	background-color: #7F254E;
 	}
-.nav li {
+.nav-links li {
 	display: inline;
 	}
 h2 {
@@ -42,13 +42,13 @@ p  {
 body {
 	background-color: #F7F4F0;
 	}
-.logo {
+.nav-logo {
 	border: 4px double #9f9f9f;
 	margin-right: 3mm;
 	margin-left: 3mm;
 	padding-right: 5px;
 	}
-.logo img{
+.nav-logo img{
 	width: 925px;
 	height: auto;
 }
