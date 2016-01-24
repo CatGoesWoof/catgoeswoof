@@ -1,20 +1,24 @@
+.nav-cont {
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+width: 100%;
+}
 .nav-links a {
-	font-size: 4em;
+	font-size: 3em;
 	color: #3581A6;
 	font-family: 'Poiret One', cursive;
 	text-decoration: none;
 	margin-right: 1cm;
 	text-align: center;
 	}
-
+.nav-logo img{
+	float: right;
+}
 .nav-links a:hover {
 	color: #BC8082;
-	border: 3px double #9f9f9f;
 	}
 .nav-links ul {
-	margin: 25px 0px 0px 0px;
-	text-align: center;
-	padding-top: 2em;
+	margin: 0px 0px 0px 0px;
+	padding-top: 0;
 	}
 .nav-links p {
 	background-color: #7F254E;
@@ -22,6 +26,26 @@
 .nav-links li {
 	display: inline;
 	}
+	.social-icon {
+	  display: inline-block;
+	}
+	.social-icon li {
+		float: right;
+	  display: inline-block;
+	  margin-top: 0;
+	}
+
+	.social-icon img {
+	  padding-right: 30px;
+		width: auto;
+		height: 6em;
+	}
+	.Pet-Slideshow img {
+		width: 500px;
+		height: auto;
+		margin-bottom: 5em;
+	}
+
 h2 {
 	background-color: #BC8082;
 	font-family: 'Pacifico', cursive;
@@ -37,24 +61,22 @@ p  {
 	font-size: 5em;
 	margin-left: 1cm;
 	margin-right: 1cm;
-	text-align: justify;
 	}
 body {
 	background-color: #F7F4F0;
 	}
 .nav-logo {
-	border: 4px double #9f9f9f;
 	margin-right: 3mm;
 	margin-left: 3mm;
 	padding-right: 5px;
 	}
 .nav-logo img{
-	width: 925px;
+	width: 40%;
 	height: auto;
 }
 .jumbotron a {
 	color: #BC8082;
-	font-weight: bold;
+	font-weight: normal;
 	text-decoration: none;
 	}
 .jumbotron a:hover {
@@ -62,6 +84,9 @@ body {
 	}
 .jumbotron img {
 	border: 10px double #3581A6;
+	}
+	.pet-bio p {
+		font-size: 3em;
 	}
 h3 {
 	Color: #3581A6;
